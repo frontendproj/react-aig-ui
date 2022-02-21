@@ -1,0 +1,13 @@
+.documentform{
+    position:relative;
+    top:0;
+    left:17rem;
+    
+}
+@media screen and(max-width:768px){
+    .documentform{
+        position: relative;
+        top:0;
+        left:0px;
+    }
+}

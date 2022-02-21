@@ -1,0 +1,14 @@
+.contactus{
+    position:relative;
+    top:0;
+    left:18rem;
+    
+}
+
+@media screen and(max-width:768px){
+    .contactus{
+        position: relative;
+        top:0;
+        left:0px;
+    }
+}

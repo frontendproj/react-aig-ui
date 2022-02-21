@@ -1,0 +1,447 @@
+$BgColor: #EAEDF7;
+$textDecoration: capitalize;
+$textColor:#062FA2;
+$cardBgColor:#fff;
+
+
+
+.main-card{
+    width:100vw;
+    height:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}  
+
+    .profile{
+        width:100%;
+        height:6rem;
+        position:absolute;
+        top:0;
+        left:0;
+        background-color: #051B58;
+        color:#fff;
+        
+        text-transform: capitalize;
+        font-size: 2.5rem;
+    }
+    .card-div{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: #EAEDF7;
+        width:100%;
+        height:22rem;
+        position: absolute;
+        top:6rem;
+        left:0;
+    } 
+        
+        .card-one{
+            
+            width:500px;
+            height:18rem;
+            position: absolute;
+            top:2rem;
+            left:5rem;
+            
+            background-color: #fff;
+        }
+            .login-security{
+               
+                 width:34rem;
+                height:16rem;
+                
+            }
+                .line{
+                    width: 26rem;
+                    height: 47px;
+                     border-bottom: 1px solid blue;
+                     position: absolute;
+                     left: 1.8rem;
+                     top:0;
+                     
+                }
+                .username{
+                    p:nth-child(1) {
+                        position: absolute;
+                        top:4rem;
+                        left:2rem;
+                        color: #062FA2;
+                        text-transform: capitalize;
+                      }
+                   
+                    p:nth-child(2) {
+                        position: absolute;
+                        top:6rem;
+                        left:2rem;
+                        color:#062FA2;
+                        text-transform: capitalize;
+                      }
+                    }
+                    .password{
+                        p:nth-child(1) {
+                            position: absolute;
+                            top:4rem;
+                            left:16rem;
+                            color: #062FA2;
+                            text-transform: capitalize;
+                          }
+                       
+                        p:nth-child(2) {
+                            position: absolute;
+                            top:6rem;
+                            left:16rem;
+                            color: #062FA2;
+                          }text-transform: capitalize;
+                        }
+                        .security{
+
+                            
+                            p:nth-child(1) {
+                                position: absolute;
+                                top:10rem;
+                                left:2rem;
+                                color: #062FA2;
+                                text-transform: capitalize;
+                              }
+                              p:nth-child(2) {
+                                position: absolute;
+                                top:12rem;
+                                left:2rem;
+                                color: #062FA2;
+                                text-transform: capitalize;
+                              }
+                             
+                              
+                          
+                        }
+                        .security Button{
+                            
+                            position: absolute;
+                            top:15rem;
+                            left:2rem;
+                            border-radius: 50px;
+
+                        }
+
+    
+                h5{
+                position: absolute;
+                top:1rem;
+                left:2rem;
+               
+                    color: #062FA2;
+                    font-size: 1.6rem;
+                    font-weight: 800;
+                    text-transform: capitalize;
+                                        
+                                   }
+            
+    
+        
+        .card-two{
+            width:500px;
+            height:18rem;
+            position: absolute;
+            top:1.7rem;
+            left:46rem;
+            
+            
+            background-color: #fff;
+        }
+            .personal-information{
+                width:34rem;
+                height:16rem;
+            }
+                h5{
+                    color: #062FA2;
+                    font-size: 1.6rem;
+                    font-weight: 800;
+                    text-transform: capitalize;
+                    position: absolute;
+                    top:1rem;
+                    left:1.7rem;
+               
+                                        
+                                   }
+          
+                                   .line-two{
+                                    width: 26rem;
+                                    height: 47px;
+                                     border-bottom: 1px solid blue;
+                                     position: absolute;
+                                     left:2rem;
+                                     top:0;
+                                     
+                                }
+                                .firstName{
+                                    
+                                    p:nth-child(1) {
+                                        position: absolute;
+                                        top:4rem;
+                                        left:2rem;
+                                        color: #062FA2;
+                                      }
+                                      p:nth-child(2) {
+                                        position: absolute;
+                                        top:5.6rem;
+                                        left:2rem;
+                                        color: #062FA2;
+                                      }
+
+                                   
+
+                                }
+                                .ssn{
+                                    p:nth-child(1) {
+                                        position: absolute;
+                                        top:10rem;
+                                        left:2rem;
+                                        color: #062FA2;
+                                      }
+                                      p:nth-child(2) {
+                                        position: absolute;
+                                        top:12rem;
+                                        left:2rem;
+                                        color: #062FA2;
+                                      }
+ 
+                                }
+                                .lastname{
+                                    p:nth-child(1) {
+                                        position: absolute;
+                                        top:4rem;
+                                        left:18rem;
+                                        color: #062FA2;
+                                                                           }
+                                      p:nth-child(2) {
+                                        position: absolute;
+                                        top:5.7rem;
+                                        left:18rem;
+                                        color:#062FA2;   }
+ 
+
+                                }
+                                .dob{
+                                    p:nth-child(1) {
+                                        position: absolute;
+                                        top:10rem;
+                                        left:18rem;
+                                        color: #062FA2;
+                                                                           }
+                                      p:nth-child(2) {
+                                        position: absolute;
+                                        top:12rem;
+                                        left:18rem;
+                                        color: #062FA2;   }
+                                 }
+
+
+                                 .row-two{
+                                     display: flex;
+                                     justify-content: center;
+                                     align-items: center;
+                                     width:100%;
+                                     height:650px;
+                                     
+                                     background-color: $BgColor;
+                                     position: relative;
+                                 }
+                                 .row-two-card-one{
+                                    width:500px;
+                                    height:18rem;
+                                    background-color:$cardBgColor;
+                                     position: absolute;
+                                     top:05rem;
+                                     left:05rem;
+                                     
+                                 }
+                                
+                                 .row-two-card-two{
+                                    width:500px;
+                                    height:33rem;
+                                    background-color:$cardBgColor;
+                                    position: absolute;
+                                     top:05rem;
+                                     left:46rem;
+                                     
+                               
+                                }
+                
+                                .card-text{
+                                    p:nth-child(1) {
+                                        position: absolute;
+                                        top:05rem;
+                                        left:03rem;
+                                        color: #062FA2;
+                                        text-align: left;
+                                
+                                    }
+                                    p:nth-child(2) {
+                                        position: absolute;
+                                        top:10rem;
+                                        left:03rem;
+                                        color: #062FA2;
+                                
+                                    }
+                                }
+                                    .card-text Button{
+                                        position: absolute;
+                                        top:15rem;
+                                        left:2rem;
+                                        border-radius: 50px;
+                                    
+                                }
+                                
+                                .card-text-two{
+
+                                    p:nth-child(2) {
+                                        position: absolute;
+                                        top:05rem;
+                                        left:03rem;
+                                        color: #062FA2;
+                                        text-align: left;
+                                
+                                    }
+                                }
+                                .card-text-two Button{
+                                    position: absolute;
+                                    top:15rem;
+                                    left:2rem;
+                                    border-radius: 50px;
+                                }
+                                .card-text-two .contact-btn{
+                                    position: absolute;
+                                    top:29rem;
+                                    left:2rem;
+                                    border-radius: 50px;
+                               
+
+                                }
+                                .card-text-two {
+                                p:nth-child(5){
+                                position:absolute;
+                                top:21rem;
+                                left:18rem;
+                                color: #062FA2;
+                                    }
+                                    p:nth-child(4){
+                                        position:absolute;
+                                        top:21rem;
+                                        left:03rem;
+                                        color: #062FA2;
+                                            }
+                                            p:nth-child(6){
+                                                position:absolute;
+                                                top:24rem;
+                                                left:03rem;
+                                                color: #062FA2;
+                                                    }
+                                                    p:nth-child(7){
+                                                        position:absolute;
+                                                        top:26rem;
+                                                        left:03rem;
+                                                        color: #062FA2;
+                                                            }
+                                }
+                                .card-text-two h5{
+                                    position: absolute;
+                                    top:03rem;
+                                    left:2.7rem;
+                                    color:#062FA2 ;
+                                }
+         
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+        .card-div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .card-one{
+            width:100%;
+            position: absolute;
+            left:0;
+        } 
+        .card-two{
+            width:100%;
+            position: absolute;
+            left:0;
+            top:20rem;
+
+        }
+        .profile{
+            max-width:100%;
+        }
+        .line{
+                    width: 33rem;
+                    height: 47px;
+                     border-bottom: 1px solid blue;
+                     position: absolute;
+                     left: 1.8rem;
+                     top:0;
+                    
+        }
+        .line-two{
+            width: 33rem;
+            height: 47px;
+             border-bottom: 1px solid blue;
+             position: absolute;
+             left: 1.8rem;
+             top:0;
+           
+
+        }
+        .navbar-toggler-icon{
+            position: relative;
+            left:0px;
+        }
+        .navbar-toggler{
+            position: relative;
+            left:-100px;
+       
+        }
+        .lastname{
+            p:nth-child(1) {
+                position: absolute;
+                
+                left:18rem;
+                
+                                                   }
+              p:nth-child(2) {
+                position: absolute;
+                
+                left:18rem;
+                   }
+
+
+        }
+
+        // ROW TWO CSS
+        .row-two{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+            top:15rem;
+            left:0;
+        }
+        .row-two-card-one{
+            width:100%;
+            position: absolute;
+            top:0;
+            left:0;
+        }
+        .row-two-card-two{
+            width:100%;
+            position: absolute;
+            top:18rem;
+            left:0;  
+        }
+     }
+   
+   

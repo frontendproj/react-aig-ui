@@ -1,0 +1,13 @@
+.loan{
+    position: relative;
+    top: 0;
+    left: 16rem;
+
+}
+@media screen and(max-width:768px){
+    .loan{
+        position: relative;
+        top:0;
+        left:0px;
+    }
+}

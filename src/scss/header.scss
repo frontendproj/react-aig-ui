@@ -1,0 +1,67 @@
+$widthNavbar:100vw;
+$heightNavbar:100vh;
+
+
+
+*{margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+.userIcon{
+    position:relative;
+    top:0.1px;
+    left:0;
+}
+.caretdown{
+    position: absolute;
+    top: 0.3rem;
+    left: 20rem;
+}
+.user{
+    position:absolute;
+    top:05px;
+    left:19rem;  
+}
+
+.NavBar-Main{
+    width:$widthNavbar;
+    // border:1px solid red;
+
+}
+.me-2{
+    position: relative;
+    left:-22px;
+}
+.d-flex Button{
+    position: relative;
+    left:-22px;
+}
+@media only screen and (min-width: 300px) and (max-width: 900px){
+    .userIcon{
+        position: relative;
+        top:0;
+        left:-70px;
+    }
+    .NavBar-Main{
+        width:100%;
+    
+    }
+    .me-2{
+        position: relative;
+        left:- 10px;
+    }
+    .d-flex Button{
+        position: relative;
+        left:-10px;
+    }
+    .d-flex{
+        max-width:100%;
+        // border:1px solid green;
+    
+         }
+    
+    
+     
+    
+}
